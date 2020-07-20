@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="cotainer-fluid">    
+    <Brew msg="Welcome to Map App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Brew from './components/Brew.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Brew
   }
 }
 </script>
 
 <style>
+body{
+  background: black;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: rebeccapurple;
   margin-top: 60px;
+  background: #2c3e50;
 }
 </style>
